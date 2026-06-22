@@ -15,8 +15,8 @@ class Solution {
         }
         int b=h.get('b');
         int a=h.get('a');
-        int l=h.get('l') / 2;
-        int o=h.get('o') / 2;
+        int l=h.get('l')/2;
+        int o=h.get('o')/2;
         int n=h.get('n');
         return Math.min(b,Math.min(a,Math.min(l,Math.min(o,n))));
     }
