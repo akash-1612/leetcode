@@ -31,7 +31,6 @@ class Solution {
                 temp.add(arr[i]);  
             } 
         }
-        System.out.println(res);
         if(temp.size() == cols) res.add(temp);
         return res;
     }
